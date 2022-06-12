@@ -126,12 +126,6 @@ define(['./workbox-36b4d269'], (function (workbox) { 'use strict';
     "url": "compatibility-testing.html",
     "revision": "cd62855f638056ea17f0db2acb88676f"
   }, {
-    "url": "extension-worker.js",
-    "revision": "f2078070a3018449a8407ca1ac8e406a"
-  }, {
-    "url": "extension-worker.js.map",
-    "revision": "49e646e713ea12961628bc54f2c8a9ab"
-  }, {
     "url": "https://assets.scratch.mit.edu/internalapi/asset/0015433a406a53f00b792424b823268c.png/get/",
     "revision": "0015433a406a53f00b792424b823268c"
   }, {
@@ -4129,10 +4123,10 @@ define(['./workbox-36b4d269'], (function (workbox) { 'use strict';
     "revision": "b74aae026e67dcab8799dd2e9e1e7da7"
   }, {
     "url": "lib.min.js",
-    "revision": "e2d5673e28b5c1c41199f0e6c960b9db"
+    "revision": "97f42438d378a12b6e687c17c06a5dc7"
   }, {
     "url": "lib.min.js.map",
-    "revision": "114c603d8d6f8e57a7fb53e17fcb1a6d"
+    "revision": "39c9eb1b721854755a365dcd474ab1a4"
   }, {
     "url": "player.html",
     "revision": "587ff557c6a4c09eaf9e183d5c74cbe7"
@@ -4169,6 +4163,9 @@ define(['./workbox-36b4d269'], (function (workbox) { 'use strict';
   }, {
     "url": "static/assets/10811a978de201353d564df7ba1ddb58.svg",
     "revision": "10811a978de201353d564df7ba1ddb58"
+  }, {
+    "url": "static/assets/10aa2f52495a52d4ae59203c39127f15.svg",
+    "revision": "10aa2f52495a52d4ae59203c39127f15"
   }, {
     "url": "static/assets/12e69a59db0f0c697eaaf1abbcad902f.svg",
     "revision": "12e69a59db0f0c697eaaf1abbcad902f"
@@ -4344,6 +4341,9 @@ define(['./workbox-36b4d269'], (function (workbox) { 'use strict';
     "url": "static/assets/4da38973d5ffd15c54e80894d430288c.svg",
     "revision": "4da38973d5ffd15c54e80894d430288c"
   }, {
+    "url": "static/assets/4e91dccc5b5e8d4017e35ff6b789b782.svg",
+    "revision": "4e91dccc5b5e8d4017e35ff6b789b782"
+  }, {
     "url": "static/assets/504d73be1b361b4b9ca7f655ce085dc6.svg",
     "revision": "504d73be1b361b4b9ca7f655ce085dc6"
   }, {
@@ -4367,6 +4367,9 @@ define(['./workbox-36b4d269'], (function (workbox) { 'use strict';
   }, {
     "url": "static/assets/582b9f12ce60392a8ef736c5dfabb4ce.svg",
     "revision": "582b9f12ce60392a8ef736c5dfabb4ce"
+  }, {
+    "url": "static/assets/59c535227d8831801967f96a7537817c.png",
+    "revision": "59c535227d8831801967f96a7537817c"
   }, {
     "url": "static/assets/59c79fa681b1421547664294a259b2d8.svg",
     "revision": "59c79fa681b1421547664294a259b2d8"
@@ -4610,6 +4613,9 @@ define(['./workbox-36b4d269'], (function (workbox) { 'use strict';
   }, {
     "url": "static/assets/c4ceba83cf15016aa9c2cf6c3b9c764b.jpg",
     "revision": "c4ceba83cf15016aa9c2cf6c3b9c764b"
+  }, {
+    "url": "static/assets/c6b29462f79d8eafcd438b2f9d402ad4.svg",
+    "revision": "c6b29462f79d8eafcd438b2f9d402ad4"
   }, {
     "url": "static/assets/c7ffd288176b935f835311512a224d4b.svg",
     "revision": "c7ffd288176b935f835311512a224d4b"
