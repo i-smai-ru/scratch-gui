@@ -1,5 +1,5 @@
 import React from 'react';
-import {FormattedMessage} from 'react-intl';
+import { FormattedMessage } from 'react-intl';
 
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
@@ -45,6 +45,26 @@ import gdxforIconURL from './gdxfor/gdxfor.png';
 import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
+
+import microbitMoreIconURL from './microbitMore/entry-icon.png';
+import microbitMoreInsetIconURL from './microbitMore/inset-icon.svg';
+import microbitMoreConnectionIconURL from './microbitMore/connection-icon.svg';
+import microbitMoreConnectionSmallIconURL from './microbitMore/connection-small-icon.svg';
+
+let formatMessage = messageData => messageData.defaultMessage;
+const version = 'v2-0.2.4';
+
+const translationMap = {
+    'en': {
+        'gui.extension.microbitMore.description': `Play with all functions of micro:bit. (${version})`
+    },
+    'ja': {
+        'gui.extension.microbitMore.description': `micro:bitのすべての機能で遊ぶ。 (${version})`
+    },
+    'ja-Hira': {
+        'gui.extension.microbitMore.description': `マイクロビットのすべてのきのうであそぶ。 (${version})`
+    }
+};
 
 const extensions = [
     {
@@ -317,6 +337,41 @@ const extensions = [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'Microbit More',
+        extensionId: 'microbitMore',
+        extensionURL: 'https://microbit-more.github.io/dist/microbitMore.mjs',
+        collaborator: 'Yengawa Lab',
+        iconURL: microbitMoreIconURL,
+        insetIconURL: microbitMoreInsetIconURL,
+        get description() {
+            return formatMessage({
+                defaultMessage: 'Play with all functions of micro:bit.',
+                description: "Description for the 'Microbit More' extension",
+                id: 'gui.extension.microbitMore.description'
+            });
+        },
+        featured: true,
+        disabled: false,
+        bluetoothRequired: true,
+        internetConnectionRequired: false,
+        launchPeripheralConnectionFlow: true,
+        useAutoScan: false,
+        connectionIconURL: microbitMoreConnectionIconURL,
+        connectionSmallIconURL: microbitMoreConnectionSmallIconURL,
+        get connectingMessage() {
+            return formatMessage({
+                defaultMessage: 'Connecting',
+                description: 'Message to help people connect to their micro:bit.',
+                id: 'gui.extension.microbit.connectingMessage'
+            });
+        },
+        helpLink: 'https://microbit-more.github.io/',
+        setFormatMessage: formatter => {
+            formatMessage = formatter;
+        },
+        translationMap: translationMap
     }
 ];
 
